@@ -22,9 +22,15 @@ export default function FeedbackForm() {
           </p>
 
           <p>
-        <label htmlFor="name">나는 내가 좋아하는 활동 중, <input id="name" className={styles['form-field']} type="text" name="name" />을(를) 더욱 자주, 더욱 활발하게 할 것이다.</label>
+        <label htmlFor="name">나는 내가 좋아하는 활동 중, <input id="name" className={styles['form-field']} type="text" name="name" />을(를) 
+            </p>
+         <p>
+더욱 자주, 더욱 활발하게 할 것이다.</label>
           </p>
-
+         
+          <p> 
+          </p>
+          
           <p>
         <label htmlFor="name">나는 신체활동을 습관화하기 위해 최선을 다할 것이다.</label>
           </p>
@@ -34,11 +40,9 @@ export default function FeedbackForm() {
           </p>
 
           <p>
-        <label htmlFor="name">이름을 적어주세요.</label>
+        <label htmlFor="name">내 이름은 <input id="name" className={styles['form-field']} type="text" name="name" />이다.</label>
           </p>
-          <p>
-        <input id="name" className={styles['form-field']} type="text" name="name" />
-          </p>
+
           
         <button className={styles.button} type="submit">서약서 작성하기</button>
       </form>
