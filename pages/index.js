@@ -15,9 +15,6 @@ export default function Home() {
       <main>
         <Header title="건강 실천 목표 서약서" />
         <hr />
-        <p className="description">
-          
-        </p>
         <FeedbackForm />
         <JokeBlock />
       </main>
