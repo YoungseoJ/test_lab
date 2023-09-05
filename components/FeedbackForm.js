@@ -18,7 +18,7 @@ export default function FeedbackForm() {
         </p>
 
           <p>
-        <label htmlFor="name">나는 하루에 '<input id="name" className={styles['form-field']} type="text" name="name" />분씩 걸을 것이다.</label>
+        <label htmlFor="name">나는 하루에 <input id="name" className={styles['form-field']} type="text" name="name" />분씩 걸을 것이다.</label>
           </p>
 
           <p>
