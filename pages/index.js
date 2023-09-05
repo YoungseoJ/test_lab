@@ -16,7 +16,7 @@ export default function Home() {
         <Header title="건강 실천 목표 서약서" />
         <hr />
         <p className="description">
-          신체활동 준비를 위해 실천 목표를 설정하고\n 실천 목표 서약서를 작성해보세요!
+          신체활동 준비를 위해 실천 목표를 설정하고 실천 목표 서약서를 작성해보세요!
         </p>
         <FeedbackForm />
         <JokeBlock />
